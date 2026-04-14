@@ -101,3 +101,72 @@ nav a:hover {
     background-color: #dbe6f5;
     object-fit: cover;
 }
+
+#sobre-mi {
+    padding: 70px 0;
+}
+
+#sobre-mi h2 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-principal);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.subtitulo-seccion {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.contenido-sobre-mi {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.texto-sobre-mi {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    flex: 2;
+}
+
+.texto-sobre-mi h3 {
+    color: var(--color-principal);
+    margin-bottom: 15px;
+    font-family: var(--fuente-titulos);
+}
+
+.texto-sobre-mi p {
+    margin-bottom: 18px;
+}
+
+.texto-sobre-mi blockquote {
+    border-left: 4px solid var(--color-acento);
+    background-color: #fff7ed;
+    padding: 15px;
+    font-style: italic;
+    border-radius: 6px;
+}
+
+.datos-personales {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.datos-personales h3 {
+    color: var(--color-principal);
+    margin-bottom: 15px;
+    font-family: var(--fuente-titulos);
+}
+
+.datos-personales p {
+    margin-bottom: 12px;
+}
