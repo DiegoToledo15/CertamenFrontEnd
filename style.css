@@ -250,3 +250,71 @@ td {
 .bloque-lista li {
     margin-bottom: 10px;
 }
+/*
+   PROYECTOS
+  */
+#proyectos {
+    padding: 70px 0;
+}
+
+#proyectos h2 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-principal);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.galeria-proyectos {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-proyecto {
+    background-color: var(--color-blanco);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.tarjeta-proyecto figure {
+    margin-bottom: 20px;
+}
+
+.tarjeta-proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tarjeta-proyecto figcaption {
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+.tarjeta-proyecto figcaption a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+.tarjeta-proyecto figcaption a:hover {
+    text-decoration: underline;
+}
+
+.tarjeta-proyecto aside p {
+    margin-bottom: 15px;
+}
+
+.tarjeta-proyecto blockquote {
+    border-left: 4px solid var(--color-acento);
+    background-color: #fff7ed;
+    padding: 15px;
+    border-radius: 6px;
+    font-style: italic;
+}
