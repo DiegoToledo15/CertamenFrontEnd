@@ -436,3 +436,64 @@ button,
 footer a {
     transition: 0.3s;
 }
+/*
+   RESPONSIVE TABLET
+*/
+@media (max-width: 768px) {
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido-sobre-mi {
+        flex-direction: column;
+    }
+
+    .listas-habilidades {
+        flex-direction: column;
+    }
+
+    .galeria-proyectos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*
+   RESPONSIVE MÓVIL
+*/
+@media (max-width: 480px) {
+    .contenedor {
+        padding: 0 15px;
+    }
+
+    .texto-presentacion h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 6px 0;
+    }
+
+    th, td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
