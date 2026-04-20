@@ -170,3 +170,83 @@ nav a:hover {
 .datos-personales p {
     margin-bottom: 12px;
 }
+/* 
+   HABILIDADES
+*/
+#habilidades {
+    padding: 70px 0;
+    background-color: #f8fafc;
+}
+
+#habilidades h2 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-principal);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contenido-habilidades {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.contenido-habilidades h3 {
+    color: var(--color-principal);
+    margin-bottom: 20px;
+    font-family: var(--fuente-titulos);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+td {
+    background-color: var(--color-blanco);
+}
+
+/* Listas */
+.listas-habilidades {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.bloque-lista {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.bloque-lista h3 {
+    color: var(--color-principal);
+    margin-bottom: 15px;
+    font-family: var(--fuente-titulos);
+}
+
+.bloque-lista ul,
+.bloque-lista ol {
+    padding-left: 20px;
+}
+
+.bloque-lista li {
+    margin-bottom: 10px;
+}
