@@ -222,35 +222,68 @@
 <section id="contacto">
     <div class="contenedor">
         <h2>Contacto</h2>
-        <p class="subtitulo-seccion">Puedes enviarme un mensaje a través del siguiente formulario</p>
+        <p class="subtitulo-seccion">Envíame un mensaje</p>
 
-        <form>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        <div class="contenido-contacto">
+            <form>
+                <div class="fila-formulario">
+                    <div class="campo-formulario">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
 
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+                    <div class="campo-formulario">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                </div>
 
-            <label for="asunto">Asunto</label>
-            <select id="asunto" name="asunto" required>
-                <option value="">Selecciona una opción</option>
-                <option value="consulta">Consulta</option>
-                <option value="trabajo">Propuesta de trabajo</option>
-                <option value="proyecto">Proyecto</option>
-            </select>
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="">Selecciona un asunto</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="trabajo">Propuesta de trabajo</option>
+                    <option value="proyecto">Proyecto</option>
+                </select>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
 
-            <button type="submit">Enviar</button>
-        </form>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+
+            <aside class="info-contacto">
+                <h3>Información de contacto</h3>
+
+                <p><span class="icono-contacto">✉️</span> diegoantoniotoledo@gmail.com</p>
+                <p><span class="icono-contacto">📍</span> Concepción, Chile</p>
+                <p><span class="icono-contacto">📞</span> +56 9 1234 5678</p>
+                <p>
+                    <span class="icono-contacto">🌐</span>
+                    <a href="https://github.com/DiegoToledo15" target="_blank">github.com/DiegoToledo15</a>
+                </p>
+            </aside>
+        </div>
     </div>
 </section>
 </main>
 <footer>
-    <div class="contenedor">
-        <p>GitHub: <a href="https://github.com/DiegoToledo15" target="_blank">Mi perfil de GitHub</a></p>
-        <p>&copy; 2026 Diego Toledo - Portafolio Personal</p>
+    <div class="contenedor footer-contenido">
+        <div class="footer-logo">
+            <img src="img/logo.png" alt="Logo del portafolio" width="50" height="50">
+            <span>Diego Toledo</span>
+        </div>
+
+        <div class="footer-redes">
+            <a href="https://github.com/DiegoToledo15" target="_blank">GH</a>
+            <a href="https://www.linkedin.com/" target="_blank">LI</a>
+            <a href="https://t.me/" target="_blank">TG</a>
+            <a href="https://www.instagram.com/" target="_blank">IG</a>
+        </div>
+    </div>
+
+    <div class="contenedor footer-copy">
+        <p>&copy; 2026 Diego Toledo. Todos los derechos reservados.</p>
     </div>
 </footer>
 
